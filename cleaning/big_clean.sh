@@ -13,6 +13,8 @@ for i in $(pwd)/*; do
 	 grep -l "DELETE ME!" $i | xargs rm -f
 done
 
+cd ..
+
 tar -zcf  cleaned_$tar *
 
 mv cleaned_* $mainDir
