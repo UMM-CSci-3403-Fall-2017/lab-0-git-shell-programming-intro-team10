@@ -15,4 +15,6 @@ done
 
 tar -zcf  cleaned_$tar *
 
+mv cleaned_* $mainDir
+
 cd $mainDir
